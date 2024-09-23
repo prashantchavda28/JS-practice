@@ -18,10 +18,10 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+const newArr = myArr.join()
 
-// console.log(myArr);
-// console.log( newArr);
+console.log(typeof myArr);
+console.log(typeof newArr);
 
 
 // slice, splice
@@ -39,9 +39,9 @@ const myn2 = myArr.splice(1, 3)
 // console.log(myn2);
 
 const food = ['pizza', 'cake', 'salad', 'cookie'];
-console.log(food)
-const i = food.splice(1,1,"burrito")
+// console.log(food)
+// const i = food.splice(1,1,"burrito")
 
 
-console.log(i)
-console.log(food)
+// console.log(i)
+// console.log(food)
