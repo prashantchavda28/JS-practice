@@ -22,7 +22,7 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
-console.log(addTwoNumbers(3, 5));
+// console.log(addTwoNumbers(3, 5));
  
 
 // // console.log("Result: ", result);
@@ -61,11 +61,11 @@ console.log(addTwoNumbers(3, 5));
 //     price: 399
 // })
 
-// const myNewArray = [200, 400, 100, 600]
+const myNewArray = [200, 400, 100, 600]
 
-// function returnSecondValue(getArray){
-//     return getArray[1]
-// }
+function returnSecondValue(getArray){
+    return getArray[1]
+}
 
-// // console.log(returnSecondValue(myNewArray));
-// // console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 500, 1000]));
