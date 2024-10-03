@@ -32,3 +32,8 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+const myArr = [1,2,3,4,5,6,7,8,9,10]
+
+const newMyArr = myArr.reduce( (acc,num) => acc + num, 0  )
+console.log(newMyArr);
